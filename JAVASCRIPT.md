@@ -46,13 +46,36 @@
 
 <h2>=== 3) Что такое оператор typeof? </h2>
 
-  - [ ] ДОП: Что возвращает typeof?
+- [ ] ДОП: Что возвращает typeof?
 
   ```javascript
     console.log(typeof 555);
     console.log(typeof typeof 555);
     console.log(typeof typeof typeof 555);
   ```
+
+  <br>
+
+- [ ] ДОП: Каков будет результат `typeof null` и почему?
+
++ Ответ `object` - это древняя ошибка
+
+<br>
+
+- [ ] ДОП: Почему `typeof NaN` возвращает `'number'`?
+
++ `NaN` - это число
+
+<br>
+
+- [ ] ДОП: Какой результат вернет `typeof []` и `typeof {}`? Почему?
+
+<br>
+
+- [ ] ДОП: Что выведет `typeof undefined` и `typeof undeclaredVariable`?
+
++ `typeof undefined` вернет 'undefined', потому что undefined является специальным значением, которое указывает на отсутствие значения.
++ `typeof undeclaredVariable` также вернет 'undefined', потому что переменная undeclaredVariable не была определена.
 
 <hr>
 <br>
@@ -69,9 +92,19 @@
 
 <h2>=== 4) Какие виды ф-й существуют и чем они друг от друга отличаются? </h2>
 
-+ function decloration - может быть вызвана где угодлно и когда угодно
-+ function exrpession - должна быть вызвана только после объявления
-+ arrow function - как и прошлый вариант. Добавлена для удобного контроля за `this`
++ `function decloration` - может быть вызвана где угодлно и когда угодно
++ `function exrpession` - должна быть вызвана только после объявления
++ `arrow function` - как и прошлый вариант. Добавлена для удобного контроля за `this`
+
+<hr>
+<br>
+<br>
+
+<h2>=== Как скопировать объект? (Не все варики)</h2>
+
+![image](https://github.com/acidshotgun/interview/assets/117285472/e16ef451-ef3b-4ae7-a29e-1d2a3953ba58)
+
+- [ ] ДОП: А глубоко как?
 
 <hr>
 <br>
