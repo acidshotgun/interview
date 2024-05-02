@@ -30,6 +30,15 @@
 <br>
 <br>
 
+<h2>===  Из чего состоит HTTP запрос? </h2>
+
+  ![image](https://github.com/acidshotgun/interview/assets/117285472/4d2842f7-d11e-453d-ac2d-cf3d19ae9679)
+
+
+<hr>
+<br>
+<br>
+
 <h2>===  Разницу между HTTP и HTTPS? </h2>
 
   + `HTTPS` - это расширеная версия `HTTP` протокола.
